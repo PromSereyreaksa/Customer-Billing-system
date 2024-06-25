@@ -1,7 +1,7 @@
-#Customer Billing System
+# Customer Billing System
 This is a customer billing system application developed by group 4 for an advanced programming course. The application allows customers to manage their billing accounts, view invoices, and make payments.
 
-Description
+## Description
 The Customer Billing System is a C-based application that provides the following features:
 
 Customer Account Management: Customers can create and manage their billing accounts, including updating personal information and viewing transaction history.
@@ -9,7 +9,7 @@ Invoice Generation: The system can generate invoices for customers based on thei
 Payment Processing: Customers can make payments towards their outstanding invoices using the application.
 Admin Functionality: The system has an admin module that allows authorized personnel to create and manage admin accounts, view customer accounts, and generate reports.
 User Interface: The application has a simple and intuitive command-line interface (CLI) that guides users through the various functionalities.
-Directory Structure
+## Directory Structure
 The repository contains the following files and directories:
 
 main.c: The main entry point of the application.
@@ -28,21 +28,16 @@ main.exe: Compiled executable file for the application.
 Installation and Usage
 To use the Customer Billing System, follow these steps:
 
-Clone the repository to your local machine.
+## Clone the repository to your local machine.
 Open a terminal or command prompt and navigate to the project directory.
 Compile the source code using a C compiler (e.g., gcc):
-Copy
 gcc -o main main.c
-Explain
-Run the compiled executable:
-Copy
-./main
-Explain
-Follow the on-screen instructions to navigate through the application's features.
-Contributing
-If you would like to contribute to the development of the Customer Billing System, please follow these guidelines:
 
-Fork the repository.
+Run the compiled executable:
+./main
+Follow the on-screen instructions to navigate through the application's features.
+
+## Fork the repository.
 Create a new branch for your feature or bug fix.
 Make your changes and ensure the application is working as expected.
 Commit your changes and push the branch to your forked repository.
