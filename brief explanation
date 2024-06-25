@@ -1,0 +1,40 @@
+# brief explanation
+## main.c:
+This is the main entry point of the billing system application.
+It includes the necessary header files and defines the main function.
+The main function displays the main menu and handles user input to navigate through the various features of the system.
+It calls the appropriate functions from the other header files to perform tasks such as creating customer accounts, generating invoices, and managing admin accounts.
+
+## adminlogin.h:
+This header file contains the functions related to admin login and authentication.
+admin_login(): This function prompts the user to enter an admin username and password, and then verifies the credentials against the information stored in the admin account.txt file.
+is_admin(): This function checks if the current user is an admin by reading the check_makeadminaccount.txt file.
+
+## allheaderfiles.h:
+This header file includes all the other header files used in the project, making them available throughout the codebase.
+It helps to maintain a centralized location for managing and including the necessary header files.
+
+## figlet.h:
+This header file contains functions for displaying ASCII art using the FIGlet library.
+display_figlet(char* text): This function takes a text input and displays it using FIGlet ASCII art.
+
+## homepage.h:
+This header file defines functions related to the project's homepage and main menu.
+display_homepage(): This function displays the main menu options and prompts the user for input.
+
+
+## invoiceoperation.h:
+This header file contains functions for generating and handling invoices.
+generate_invoice(): This function prompts the user to enter customer information, calculates the total amount due, and saves the invoice details to the db.txt file.
+view_invoice(): This function allows the user to search for and view a customer's invoice by their name.
+
+## makeadminaccount.c:
+This file defines the functions for creating and managing admin accounts.
+create_admin_account(): This function prompts the user to enter an admin username and password, and then saves the information to the admin account.txt file.
+check_admin_account(): This function checks if an admin account has been created by reading the check_makeadminaccount.txt file.
+
+## time.h:
+This header file contains functions for handling date and time operations.
+get_current_date(): This function returns the current date in the format "YYYY-MM-DD".
+
+## Overall, the code in this repository provides a customer billing system with the ability to create customer accounts, generate invoices, and manage admin accounts. The header files and functions are organized to handle the various components of the system, making the code modular and easier to maintain.
