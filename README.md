@@ -1,4 +1,4 @@
-Customer Billing System
+#Customer Billing System
 This is a customer billing system application developed by group 4 for an advanced programming course. The application allows customers to manage their billing accounts, view invoices, and make payments.
 
 Description
