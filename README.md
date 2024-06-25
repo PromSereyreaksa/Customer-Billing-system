@@ -12,20 +12,31 @@ User Interface: The application has a simple and intuitive command-line interfac
 ## Directory Structure
 The repository contains the following files and directories:
 
-main.c: The main entry point of the application.
-homepage.h: Header file for the main homepage functionality.
-adminlogin.h: Header file for the admin login functionality.
-invoiceoperation.h: Header file for invoice-related operations.
-makeadminaccount.c: Source file for creating and managing admin accounts.
-allheaderfiles.h: Includes all the header files in one place.
-account.txt: Text file storing customer account information.
-db.txt: Text file storing the application's database.
-admin account.txt: Text file storing admin account information.
-check_makeadminaccount.txt: Text file used for checking the admin account creation process.
-time.h: Header file for time-related operations.
-figlet.h: Header file for displaying ASCII art.
-main.exe: Compiled executable file for the application.
-Installation and Usage
+## main.c: 
+The main entry point of the application.
+## homepage.h: 
+Header file for the main homepage functionality.
+## adminlogin.h: 
+Header file for the admin login functionality.
+## invoiceoperation.h: 
+Header file for invoice-related operations.
+## makeadminaccount.c: 
+Source file for creating and managing admin accounts.
+## allheaderfiles.h: 
+Includes all the header files in one place.
+## db.txt: Text file storing the application's database.
+## admin account.txt: 
+Text file storing admin account information.
+## check_makeadminaccount.txt: 
+Text file used for checking the admin account creation process.
+## time.h: 
+Header file for time-related operations.
+## figlet.h: 
+Header file for displaying ASCII art.
+## main.exe: 
+Compiled executable file for the application.
+
+## Installation and Usage
 To use the Customer Billing System, follow these steps:
 
 ## Clone the repository to your local machine.
